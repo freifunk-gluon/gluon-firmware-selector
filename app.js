@@ -237,6 +237,9 @@ var firmwarewizard = function() {
 
     $('#notrecommendedselect').checked = false;
 
+    if (config.color_accent !== undefined) {
+      document.body.style.setProperty('--accent-color', config.color_accent)
+    }
     function parseURLasJSON() {
       var search = location.search.substring(1);
       return search ? JSON.parse(
