@@ -186,9 +186,10 @@ var devices_recommended = {
   },
 
   "Linksys": {
-    "WRT1200AC": "linksys-wrt1200ac",
     "E4200": {"linksys-e4200-v2-viper": "v2"},
     "E8450": {"linksys-e8450": "", "linksys-e8450-ubi-sysupgrade.itb": ""},
+    "WHW01 (Velop)": "linksys-whw01",
+    "WRT1200AC": "linksys-wrt1200ac",
   },
 
   "Meraki": {
@@ -711,6 +712,9 @@ var devices_info = {
   },
   "Joy-IT": {
     "JT-OR750i": "https://wiki.freifunk-stuttgart.net/technik:hardware:joy-it_jt-or750i",
+  },
+  "Linksys" : {
+    "WHW01 (Velop)": "https://openwrt.org/toh/linksys/whw01_v1#installation",
   },
   "Netgear": {
     "EX3700": "https://freifunk-ingolstadt.de/installationsanleitung-fuer-netgear-wi-fi-range-extender-ex3700/",
