@@ -714,6 +714,7 @@ var devices_info = {
     "JT-OR750i": "https://wiki.freifunk-stuttgart.net/technik:hardware:joy-it_jt-or750i",
   },
   "Linksys" : {
+    "E8450": "https://openwrt.org/toh/linksys/e8450#installation",
     "WHW01 (Velop)": "https://openwrt.org/toh/linksys/whw01_v1#installation",
   },
   "Netgear": {
