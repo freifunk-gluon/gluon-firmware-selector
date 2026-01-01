@@ -188,7 +188,7 @@ var devices_recommended = {
   "Linksys": {
     "E4200": {"linksys-e4200-v2-viper": "v2"},
     "E8450": {"linksys-e8450": "", "linksys-e8450-ubi-sysupgrade.itb": ""},
-    "WHW01 (Velop)": "linksys-whw01",
+    "WHW01 (Velop) / VLP01": "linksys-whw01",
     "WRT1200AC": "linksys-wrt1200ac",
   },
 
@@ -715,7 +715,7 @@ var devices_info = {
   },
   "Linksys" : {
     "E8450": "https://openwrt.org/toh/linksys/e8450#installation",
-    "WHW01 (Velop)": "https://openwrt.org/toh/linksys/whw01_v1#installation",
+    "WHW01 (Velop) / VLP01": "https://openwrt.org/toh/linksys/whw01_v1#installation",
   },
   "Netgear": {
     "EX3700": "https://freifunk-ingolstadt.de/installationsanleitung-fuer-netgear-wi-fi-range-extender-ex3700/",
