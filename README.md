@@ -54,6 +54,19 @@ If no hardware revision is given or is it is empty, the revision is extracted fr
 
 If two matches overlap, the longest match will be assigned the matching files. On the other hand, the same match can be used by multiple models without problems.
 
+### Adding a device
+To add a device follow these steps:
+
+0. Check if the device has Gluon support. [This list](https://github.com/freifunk-gluon/gluon/blob/main/docs/user/supported_devices.rst) is where to check.
+1. Make a fork and a branch for the device
+2. Go into `devices.js`
+3. Add the router to the correct list. See the [scheme above](#list-of-available-router-models)
+  - If the device is still recommended use `devices_recommended`
+  - Otherwise use the correct list, e.g. `devices_4_32` or `devices_ath10k_lowmem`
+4. If Gluon can be installed **without modification** through the vendor UI, skip step 5
+5. Add the installation instructions in the `devices_info` list. This is idealy an OpenWRT link, otherwise the Git commit of the device. The scheme is similar to the one in number 3. Just look at the other devices.
+6. Kindly open a Pull Request. Thank you for your contribution!
+
 ### License
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
