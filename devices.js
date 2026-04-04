@@ -39,12 +39,13 @@ var devices_recommended = {
   },
 
   "Asus": {
-     "RT-AC51U": "asus-rt-ac51u",
-     "RT-AC57U": "asus-rt-ac57u",
-     "RT-AX52": "asus-rt-ax52",
-     "RT-AX53U": "asus-rt-ax53u",
-     "TUF-AX4200": "asus-tuf-ax4200",
-     "TUF-AX6000": "asus-tuf-ax6000",
+    "Lyra MAP-AC2200": "asus-lyra-map-ac2200",
+    "RT-AC51U": "asus-rt-ac51u",
+    "RT-AC57U": "asus-rt-ac57u",
+    "RT-AX52": "asus-rt-ax52",
+    "RT-AX53U": "asus-rt-ax53u",
+    "TUF-AX4200": "asus-tuf-ax4200",
+    "TUF-AX6000": "asus-tuf-ax6000",
   },
 
   "AVM": {
@@ -723,6 +724,7 @@ var devices_info = {
     "vgv7510kw22/O2 Box 6431": "https://forum.openwrt.org/t/installing-lede-u-boot-via-brnboot-web-interface-without-rs232/9857/6"
   },
   "Asus": {
+    "Lyra MAP-AC2200": "https://openwrt.org/toh/asus/lyra_map-ac2200#oem_easy_installation",
     "RT-AC51U": "https://openwrt.org/toh/asus/rt-ac51u#installation",
     "RT-AX52": "https://openwrt.org/toh/asus/rt-ax52#installation",
     "RT-AX53U (RT-AX1800U)": "https://openwrt.org/toh/asus/rt-ax53u#installation_with_mtd-write",
