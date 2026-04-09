@@ -33,8 +33,14 @@ For testing purposes or to share files in a LAN, Python can be used. Run `python
 #### Docker
 ```
 docker build -t gluon-firmware-selector .
-docker run -p 80:80 -v /path/to/firmware/:/images:ro -v /path/to/config.js:/usr/share/nginx/html/config.js:ro --name web_firmware gluon-firmware-selector
+docker run -p 80:80 \
+  -v /path/to/firmware/:/images:ro \
+  -v /path/to/config.js:/usr/share/nginx/html/config.js:ro \
+  --name web_firmware gluon-firmware-selector
 ```
+
+The `directories` in `config.js` must match your mount layout. For example, if you use `/images/stable/factory` etc. as your default firmware layout (instead of `/images/factory`), use `'/images/stable/factory/'` in `directories`.
+
 For https support check [jrcs/letsencrypt-nginx-proxy-companion](https://hub.docker.com/r/jrcs/letsencrypt-nginx-proxy-companion)
 
 
