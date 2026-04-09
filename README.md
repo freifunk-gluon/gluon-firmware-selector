@@ -43,6 +43,18 @@ The `directories` in `config.js` must match your mount layout. For example, if y
 
 For https support check [jrcs/letsencrypt-nginx-proxy-companion](https://hub.docker.com/r/jrcs/letsencrypt-nginx-proxy-companion)
 
+#### Docker with external device-pictures
+
+In order to use the official [device-pictures repo](https://github.com/freifunk/device-pictures), pass `--target external-pictures` to build an image without the bundled pictures.
+
+```sh
+docker build --target external-pictures -t gluon-firmware-selector .
+docker run -p 80:80 \
+  -v /path/to/firmware/:/images:ro \
+  -v /path/to/config.js:/usr/share/nginx/html/config.js:ro \
+  -v /path/to/device-pictures/pictures-svg:/usr/share/nginx/html/pictures:ro \
+  --name web_firmware gluon-firmware-selector
+```
 
 ### List of available router models
 All available router models are specified in `devices.js` via that will match against the filenames.
