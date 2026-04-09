@@ -1,0 +1,44 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Check JS syntax
+        run: |
+          node --check app.js
+          node --check devices.js
+          node --check config_template.js
+
+  docker:
+    runs-on: ubuntu-latest
+    needs: lint
+    strategy:
+      matrix:
+        docker-target:
+          - "bundled-pictures"
+          - "external-pictures"
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Prepare config.js
+        run: cp config_template.js config.js
+
+      - name: Build ${{ matrix.docker-target }} target
+        run: docker build --target ${{ matrix.docker-target }} -t gluon-firmware-selector:${{ matrix.docker-target }} .
+
+      - name: Smoke test container
+        run: |
+          docker run -d --rm --name test-container -p 8080:80 gluon-firmware-selector:${{ matrix.docker-target }}
+          sleep 5
+          curl --fail http://localhost:8080/
+          docker stop test-container
