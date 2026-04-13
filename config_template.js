@@ -33,15 +33,15 @@ var config = {
   // relative image paths and branch
   directories: {
     // some demo sources
-    './images/stable/gluon-factory-example.html': 'stable',
-    './images/stable/gluon-other-example.html': 'stable',
-    './images/stable/gluon-sysupgrade-example.html': 'stable',
-    './images/beta/gluon-factory-example.html': 'beta',
-    './images/beta/gluon-other-example.html': 'beta',
-    './images/beta/gluon-sysupgrade-example.html': 'beta',
-    './images/testing/gluon-factory-example.html': 'testing',
-    './images/testing/gluon-other-example.html': 'testing',
-    './images/testing/gluon-sysupgrade-example.html': 'testing',
+    '/images/stable/factory/': 'stable',
+    '/images/stable/other/': 'stable',
+    '/images/stable/sysupgrade/': 'stable',
+    '/images/beta/factory/': 'beta',
+    '/images/beta/other/': 'beta',
+    '/images/beta/sysupgrade/': 'beta',
+    '/images/testing/factory/': 'testing',
+    '/images/testing/other/': 'testing',
+    '/images/testing/sysupgrade/': 'testing',
   },
   // page title
   title: 'Firmware',
