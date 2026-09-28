@@ -72,6 +72,8 @@ If no hardware revision is given or is it is empty, the revision is extracted fr
 
 If two matches overlap, the longest match will be assigned the matching files. On the other hand, the same match can be used by multiple models without problems.
 
+---
+
 ### Adding a device
 To add a device follow these steps:
 
@@ -84,6 +86,26 @@ To add a device follow these steps:
 4. If Gluon can be installed **without modification** through the vendor UI, skip step 5
 5. Add the installation instructions in the `devices_info` list. This is idealy an OpenWRT link, otherwise the Git commit of the device. The scheme is similar to the one in number 3. Just look at the other devices.
 6. Kindly open a Pull Request. Thank you for your contribution!
+
+### Adding a new picture
+#### Similar looking device already exists
+
+If there is a device which looks **very** similar to the one you want to add, you may just add a symlink. Look at the `pictures` directory for reference.
+
+#### Completely new picture
+Your device does not have a lookalike? Follow these steps:
+
+0. Make sure the device already exists in the `devices.js`
+1. Create the graphic using whatever software you like. However, it has to  support [vector graphics](https://en.wikipedia.org/wiki/Vector_graphics) (e.g. Inkscape, Draw.io, ...). This is needed so that you can export the image as SVG for the next step. Please do not just convert an JPG to SVG (vice versa is fine).
+2. Before making a PR to this repo, please first add the device as SVG to the [device picture repo](https://github.com/freifunk/device-pictures). Preferably wait until that PR is merged, to avoid needing style changes in both repos on change requests
+3. Make a fork, a branch and add your picture(s) to it. The name should always be the name listed in `devices.js`, e.g. netgear-rbr50.jpg for the Netgear Orbi RBR50. If the version is in the name, you have to include that too, e.g. netgear-wndr3700v2 and netgear-wndr3700v4.
+4. Make sure your picture meets the following requirements:
+    - The size is around 256px
+    - No brand names are included in the picture (Netgear, Fritz, TP-Link, ...)
+    - Has a white background
+5. Make a PR. Please only make one PR per device (family) and don't mix them together. E.g. you may put all Netgear Orbi devices in one (same family, similar looking), but don't mix e.g. a Netgear Orbi with an Asus Lyra
+
+---
 
 ### License
 This program is free software: you can redistribute it and/or modify
