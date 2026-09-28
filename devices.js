@@ -247,6 +247,8 @@ var devices_recommended = {
     "EX6150": {"netgear-ex6150": "v1", "netgear-ex6150v2": "v2"},
     "Orbi Pro SRR60": "netgear-srr60",
     "Orbi Pro SRS60": "netgear-srs60",
+    "Orbi RBR20": "netgear-rbr20",
+    "Orbi RBS20": "netgear-rbs20",
     "Orbi RBR50": {"netgear-rbr50": "v1"},
     "Orbi RBS50": {"netgear-rbs50": "v1"},
     "R6020": "netgear-r6020",
