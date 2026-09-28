@@ -249,6 +249,8 @@ var devices_recommended = {
     "Orbi Pro SRS60": "netgear-srs60",
     "Orbi RBR20": "netgear-rbr20",
     "Orbi RBS20": "netgear-rbs20",
+    "Orbi RBR40": "netgear-rbr40",
+    "Orbi RBS40": "netgear-rbs40",
     "Orbi RBR50": {"netgear-rbr50": "v1"},
     "Orbi RBS50": {"netgear-rbs50": "v1"},
     "R6020": "netgear-r6020",
