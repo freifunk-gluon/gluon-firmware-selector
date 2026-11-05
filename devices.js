@@ -402,6 +402,7 @@ var devices_recommended = {
     "CPE710": "tp-link-cpe710",
     "EAP225-Outdoor": "tp-link-eap225-outdoor",
     "EAP615-Wall": "tp-link-eap615-wall",
+    "Festa FR365": "tp-link-fr365",
     "RE200": "tp-link-re200",
     "RE305": "tp-link-re305",
     "RE500": "tp-link-re500",
@@ -883,12 +884,15 @@ var devices_info = {
       "v1": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=4f86edf477edbc0f20b5a49a69f658fa82158284",
       "v3": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=7e4de89e631aaf56be5375662b7d5ed0f27e26f6",
     },
+    "Festa FR365": {
+      "v1": "https://openwrt.org/toh/tp-link/fr365_v1#installation",
+    },
     "TL-WR841N/ND" : {
       "v13": "https://openwrt.org/toh/tp-link/tl-wr841nd#tftp_recovery_via_bootloader_for_v8_v9_v10_v11_v12_v13"
     },
     "TL-WR902AC": {
       "v3": "https://openwrt.org/toh/tp-link/tl-wr902ac_v3#installation"
-    }
+    },
   },
   "Wavlink": {
     "WS-WN572HP3 (4G)": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=6cd1035d8dc001561331ca9e613d7dfc7d0fd7a6",
