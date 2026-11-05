@@ -40,6 +40,7 @@ var devices_recommended = {
 
   "Asus": {
     "Lyra MAP-AC2200": "asus-lyra-map-ac2200",
+    "Lyra Mini MAP-AC1300": "asus-lyra-mini-map-ac1300",
     "RT-AC51U": "asus-rt-ac51u",
     "RT-AC57U": "asus-rt-ac57u",
     "RT-AX52": "asus-rt-ax52",
@@ -730,6 +731,7 @@ var devices_info = {
   },
   "Asus": {
     "Lyra MAP-AC2200": "https://openwrt.org/toh/asus/lyra_map-ac2200#oem_easy_installation",
+    "Lyra Mini MAP-AC1300": "https://git.openwrt.org/openwrt/openwrt/commit/?id=120b70a6e267a23cc7675703b311a62769abe334",
     "RT-AC51U": "https://openwrt.org/toh/asus/rt-ac51u#installation",
     "RT-AX52": "https://openwrt.org/toh/asus/rt-ax52#installation",
     "RT-AX53U (RT-AX1800U)": "https://openwrt.org/toh/asus/rt-ax53u#installation_with_mtd-write",
