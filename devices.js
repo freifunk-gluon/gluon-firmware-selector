@@ -495,6 +495,7 @@ var devices_recommended = {
     "Mi Router 4A (100M International Edition)": "xiaomi-mi-router-4a-100m-international-edition",
     "Mi Router 4A (Gigabit Edition)": { "xiaomi-mi-router-4a-gigabit-edition": "v1", "xiaomi-mi-router-4a-gigabit-edition-v2": "v2" },
     "Mi Router 4C": "xiaomi-mi-router-4c",
+    "Mi Router AC2100": "xiaomi-mi-router-ac2100",
     "MiWiFi Mini": "xiaomi-miwifi-mini",
     "Redmi Router AC2100": "xiaomi-redmi-router-ac2100",
   },
@@ -897,6 +898,7 @@ var devices_info = {
     "Mi Router 4A (100M International Edition)": "https://forum.ffrn.de/t/howto-installation-xiaomi-mi-router-4a-r4ac-100m-international-edition/3536",
     "Mi Router 4A (Gigabit Edition)": "https://github.com/acecilia/OpenWRTInvasion/blob/master/README.md",
     "Mi Router 4C": "https://github.com/acecilia/OpenWRTInvasion/blob/master/README.md",
+    "Mi Router AC2100": "https://openwrt.org/toh/xiaomi/mi_router_ac2100#installation",
     "Redmi Router AC2100": "https://openwrt.org/toh/xiaomi/xiaomi_redmi_router_ac2100#installation",
   },
   "ZTE": {
