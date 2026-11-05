@@ -353,6 +353,7 @@ var devices_recommended = {
     "PA300E": "plasma-cloud-pa300e",
     "PA1200": "plasma-cloud-pa1200",
     "PA2200": "plasma-cloud-pa2200",
+    "PAX1800-Lite": "plasma-cloud-pax1800-lite",
   },
 
   "RAVPower": {
@@ -853,6 +854,12 @@ var devices_info = {
     "AP15": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=0dc58214896aacf67a3759495d70e2b4e9c160d8",
     "AP55": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=6f1efb28983758116a8ecaf9c93e1d875bb70af7",
     "AP55c": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=6f1efb28983758116a8ecaf9c93e1d875bb70af7",
+  },
+  "Plasma Cloud": {
+    "PA300": "https://ap51-flash.readthedocs.io/",
+    "PA1200": "https://ap51-flash.readthedocs.io/",
+    "PA2200": "https://ap51-flash.readthedocs.io/",
+    "PAX1800-Lite": "https://ap51-flash.readthedocs.io/",
   },
   "Ubiquiti": {
     "EdgeRouter X": "https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/blob/master/README.md#gluon-auf-ubnt-edgerouter-x-und-x-sfp",
