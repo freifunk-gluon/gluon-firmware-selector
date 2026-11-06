@@ -40,6 +40,7 @@ var devices_recommended = {
 
   "Asus": {
     "Lyra MAP-AC2200": "asus-lyra-map-ac2200",
+    "Lyra Mini MAP-AC1300": "asus-lyra-mini-map-ac1300",
     "RT-AC51U": "asus-rt-ac51u",
     "RT-AC57U": "asus-rt-ac57u",
     "RT-AX52": "asus-rt-ax52",
@@ -353,6 +354,7 @@ var devices_recommended = {
     "PA300E": "plasma-cloud-pa300e",
     "PA1200": "plasma-cloud-pa1200",
     "PA2200": "plasma-cloud-pa2200",
+    "PAX1800-Lite": "plasma-cloud-pax1800-lite",
   },
 
   "RAVPower": {
@@ -400,6 +402,7 @@ var devices_recommended = {
     "CPE710": "tp-link-cpe710",
     "EAP225-Outdoor": "tp-link-eap225-outdoor",
     "EAP615-Wall": "tp-link-eap615-wall",
+    "Festa FR365": "tp-link-fr365",
     "RE200": "tp-link-re200",
     "RE305": "tp-link-re305",
     "RE500": "tp-link-re500",
@@ -493,7 +496,9 @@ var devices_recommended = {
     "Mi Router 4A (100M International Edition)": "xiaomi-mi-router-4a-100m-international-edition",
     "Mi Router 4A (Gigabit Edition)": { "xiaomi-mi-router-4a-gigabit-edition": "v1", "xiaomi-mi-router-4a-gigabit-edition-v2": "v2" },
     "Mi Router 4C": "xiaomi-mi-router-4c",
-    "MiWiFi Mini": "xiaomi-miwifi-mini"
+    "Mi Router AC2100": "xiaomi-mi-router-ac2100",
+    "MiWiFi Mini": "xiaomi-miwifi-mini",
+    "Redmi Router AC2100": "xiaomi-redmi-router-ac2100",
   },
 
   "x86": {
@@ -729,6 +734,7 @@ var devices_info = {
   },
   "Asus": {
     "Lyra MAP-AC2200": "https://openwrt.org/toh/asus/lyra_map-ac2200#oem_easy_installation",
+    "Lyra Mini MAP-AC1300": "https://git.openwrt.org/openwrt/openwrt/commit/?id=120b70a6e267a23cc7675703b311a62769abe334",
     "RT-AC51U": "https://openwrt.org/toh/asus/rt-ac51u#installation",
     "RT-AX52": "https://openwrt.org/toh/asus/rt-ax52#installation",
     "RT-AX53U (RT-AX1800U)": "https://openwrt.org/toh/asus/rt-ax53u#installation_with_mtd-write",
@@ -854,6 +860,12 @@ var devices_info = {
     "AP55": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=6f1efb28983758116a8ecaf9c93e1d875bb70af7",
     "AP55c": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=6f1efb28983758116a8ecaf9c93e1d875bb70af7",
   },
+  "Plasma Cloud": {
+    "PA300": "https://ap51-flash.readthedocs.io/",
+    "PA1200": "https://ap51-flash.readthedocs.io/",
+    "PA2200": "https://ap51-flash.readthedocs.io/",
+    "PAX1800-Lite": "https://ap51-flash.readthedocs.io/",
+  },
   "Ubiquiti": {
     "EdgeRouter X": "https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/blob/master/README.md#gluon-auf-ubnt-edgerouter-x-und-x-sfp",
     "EdgeRouter X-SFP": "https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image/blob/master/README.md#gluon-auf-ubnt-edgerouter-x-und-x-sfp",
@@ -872,12 +884,15 @@ var devices_info = {
       "v1": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=4f86edf477edbc0f20b5a49a69f658fa82158284",
       "v3": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=7e4de89e631aaf56be5375662b7d5ed0f27e26f6",
     },
+    "Festa FR365": {
+      "v1": "https://openwrt.org/toh/tp-link/fr365_v1#installation",
+    },
     "TL-WR841N/ND" : {
       "v13": "https://openwrt.org/toh/tp-link/tl-wr841nd#tftp_recovery_via_bootloader_for_v8_v9_v10_v11_v12_v13"
     },
     "TL-WR902AC": {
       "v3": "https://openwrt.org/toh/tp-link/tl-wr902ac_v3#installation"
-    }
+    },
   },
   "Wavlink": {
     "WS-WN572HP3 (4G)": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=6cd1035d8dc001561331ca9e613d7dfc7d0fd7a6",
@@ -887,6 +902,8 @@ var devices_info = {
     "Mi Router 4A (100M International Edition)": "https://forum.ffrn.de/t/howto-installation-xiaomi-mi-router-4a-r4ac-100m-international-edition/3536",
     "Mi Router 4A (Gigabit Edition)": "https://github.com/acecilia/OpenWRTInvasion/blob/master/README.md",
     "Mi Router 4C": "https://github.com/acecilia/OpenWRTInvasion/blob/master/README.md",
+    "Mi Router AC2100": "https://openwrt.org/toh/xiaomi/mi_router_ac2100#installation",
+    "Redmi Router AC2100": "https://openwrt.org/toh/xiaomi/xiaomi_redmi_router_ac2100#installation",
   },
   "ZTE": {
     "MF281": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=1e1695f959e678868bb7911d059b847f38fc9cf4",
