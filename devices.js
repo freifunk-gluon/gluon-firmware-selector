@@ -205,7 +205,7 @@ var devices_recommended = {
 
   "Linksys": {
     "E4200": {"linksys-e4200-v2-viper": "v2"},
-    "E8450": {"linksys-e8450": "", "linksys-e8450-ubi-sysupgrade.itb": ""},
+    "E8450": {"linksys-e8450": "", "linksys-e8450-ubi": ""},
     "MR8300": "linksys-mr8300-dallas",
     "MX4200": {"linksys-mx4200v1": "v1"},
     "MX5300": "linksys-mx5300",
