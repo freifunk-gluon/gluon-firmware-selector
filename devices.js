@@ -32,6 +32,7 @@ var devices_recommended = {
   "Aruba": {
     "AP-303": "aruba-ap-303",
     "AP-303H": "aruba-ap-303h",
+    "AP-324/AP-325": "aruba-ap-32x",
     "AP-365": "aruba-ap-365",
     "Instant On AP11": "aruba-instant-on-ap11",
     "Instant On AP11D": "aruba-instant-on-ap11d",
