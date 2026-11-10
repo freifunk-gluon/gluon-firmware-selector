@@ -32,6 +32,7 @@ var devices_recommended = {
   "Aruba": {
     "AP-303": "aruba-ap-303",
     "AP-303H": "aruba-ap-303h",
+    "AP-324/AP-325": "aruba-ap-32x",
     "AP-365": "aruba-ap-365",
     "Instant On AP11": "aruba-instant-on-ap11",
     "Instant On AP11D": "aruba-instant-on-ap11d",
@@ -204,8 +205,11 @@ var devices_recommended = {
 
   "Linksys": {
     "E4200": {"linksys-e4200-v2-viper": "v2"},
-    "E8450": {"linksys-e8450": "", "linksys-e8450-ubi-sysupgrade.itb": ""},
+    "E8450": {"linksys-e8450": "", "linksys-e8450-ubi": ""},
     "MR8300": "linksys-mr8300-dallas",
+    "MX4200": {"linksys-mx4200v1": "v1"},
+    "MX5300": "linksys-mx5300",
+    "MX5500": "linksys-mx5500",
     "VLP01": "linksys-vlp01",
     "WHW01": "linksys-whw01",
     "WHW03": {"linksys-whw03-velop": "v1", "linksys-whw03-v2-velop": "v2"},
